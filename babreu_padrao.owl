@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mikusec-padrao#"
+     xml:base="http://www.semanticweb.org/mikusec-padrao"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mikusec-padrao"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#pergunta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikusec-padrao#pergunta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#resposta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikusec-padrao#resposta"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#Q0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#Q0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">onegai</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#Q1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#Q1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Existe uma entidade confiável no sistema? (responda sim ou não)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#Q2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#Q2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Os eventos necessitam ser salvos em uma ordem sequencial? (responda sim ou não)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#Q3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#Q3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É necessário saber o instante exato em que o evento ocorreu? (responda sim ou não)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#R0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#R0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU6li2GQYsK1wXNq8nf4GGA4RZW-rtwACDQMAAtkjZCF0EdiV1BOCMSkE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desculpe, não entendi...</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#R1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#R1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7Ji2GaK5HP4vp76Lxt30JVJE4b4cwACAQMAAtkjZCHmsnsyQAJs-SkE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hm... Como há uma entidade confiável, não é necessário descentralizar com Blockchain</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#R2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#R2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7Ri2GcHPMhZy76dScE1ZS5iIut3yAACBQMAAtkjZCElAfMvpD7j6ikE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Se a ordenação de eventos não é importante, acho que o Blockchain não é necessário...</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#R3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#R3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7pi2GdVhz9JDwsoBAloy5_B4_hXXwACAgMAAtkjZCELOR5Vlh4rICkE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Se é necessário o instante de tempo, recomendamos não usar Blockchain!</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-padrao#R4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-padrao#R4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-padrao#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7Zi2GcvTh5-G_4oA3WXcAIcT4xTqAAC7wIAAtkjZCEHw4gOZ10OCikE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legal! Pode ser promissor usar Blockchain</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->

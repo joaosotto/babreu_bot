@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mikusec-negativa#"
+     xml:base="http://www.semanticweb.org/mikusec-negativa"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mikusec-negativa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#pergunta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikusec-negativa#pergunta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#resposta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikusec-negativa#resposta"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#Q0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#Q0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">onegai</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#Q1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#Q1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXISTE UMA ENTIDADE CONFIÁVEL NO SISTEMA? (responda sim ou não)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#Q2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#Q2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OK. Próximo: os eventos necessitam ser salvos em uma ordem sequencial? (responda sim ou não)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#Q3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#Q3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finalmente, a última pergunta: é necessário saber o instante exato em que o evento ocorreu? (responda sim ou não)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#R0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#R0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFWPRi2xhLvnXh4qiEBAABuNJVOdINI5EAAgwDAALZI2QhIbUsP_IDjmkpBA</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Não entendi!</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#R1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#R1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFWPhi2xi762tnGFtx3_2Jg9UO_6g3BgACBgMAAtkjZCFdvKmxnTB63ykE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Como há uma entidade confiável, não é necessário descentralizar!!!</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#R2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#R2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFWP9i2xkHDnIaZjjTla7aA7pqqiMMaQACAwMAAtkjZCHa1ZaSC3y-sikE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poxa, se a ordenação de eventos não é importante, o Blockchain não parece ser necessário!!!</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#R3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#R3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFWQNi2xkpQowHEsK7NdJ0up3S7uA0ygACBQMAAtkjZCElAfMvpD7j6ikE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Se é necessário o instante de tempo, talvez seja melhor usar outra coisa...</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-negativa#R4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-negativa#R4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-negativa#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFWPZi2xiV_WISIIWgrDmunDNsYfZIngACBAMAAtkjZCGyixag6ZeF4ykE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quem sabe pode ser promissor usar Blockchain...</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->

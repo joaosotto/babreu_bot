@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mikusec-padrao#"
+     xml:base="http://www.semanticweb.org/mikusec-padrao"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mikusec-tsundere"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#pergunta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#resposta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#Q0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">onegai </rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#Q1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vc é o bernardo abreu? (sim/não)</rdfs:comment>
+    </owl:NamedIndividual>   
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#Q2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rafael? (sim/não)</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#Q3 -->
+
+        <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tu é o veve ent ne faaaala veve (sim/não)</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lucca giovannetti? (sim/não)</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#R0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU6li2GQYsK1wXNq8nf4GGA4RZW-rtwACDQMAAtkjZCF0EdiV1BOCMSkE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">que</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#R1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7Ji2GaK5HP4vp76Lxt30JVJE4b4cwACAQMAAtkjZCHmsnsyQAJs-SkE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WOOOOOW fala ai breuzin meu camarada</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mikusec-tsundere#R2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7Ri2GcHPMhZy76dScE1ZS5iIut3yAACBQMAAtkjZCElAfMvpD7j6ikE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baka rafael de paula calheiros</rdfs:comment>
+    </owl:NamedIndividual> 
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7Zi2GcvTh5-G_4oA3WXcAIcT4xTqAAC7wIAAtkjZCEHw4gOZ10OCikE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venanada</rdfs:comment>
+    </owl:NamedIndividual>
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7pi2GdVhz9JDwsoBAloy5_B4_hXXwACAgMAAtkjZCELOR5Vlh4rICkE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCHOOOOOINFSSS</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7pi2GdVhz9JDwsoBAloy5_B4_hXXwACAgMAAtkjZCELOR5Vlh4rICkE</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ae nao ae nao</rdfs:comment>
+    </owl:NamedIndividual>
+
+</rdf:RDF>
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
