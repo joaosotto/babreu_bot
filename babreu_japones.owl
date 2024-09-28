@@ -48,7 +48,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q0">
         <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">onegai </rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">onegai</rdfs:comment>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mikusec-tsundere#Q1 -->
@@ -67,12 +67,7 @@
 
     <!-- http://www.semanticweb.org/mikusec-tsundere#Q3 -->
 
-        <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tu é o veve ent ne faaaala veve (sim/não)</rdfs:comment>
-    </owl:NamedIndividual>
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q4">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#Q3">
         <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#pergunta"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lucca giovannetti? (sim/não)</rdfs:comment>
     </owl:NamedIndividual>
@@ -100,15 +95,8 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7Ri2GcHPMhZy76dScE1ZS5iIut3yAACBQMAAtkjZCElAfMvpD7j6ikE</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baka rafael de paula calheiros</rdfs:comment>
     </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7Zi2GcvTh5-G_4oA3WXcAIcT4xTqAAC7wIAAtkjZCEHw4gOZ10OCikE</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venanada</rdfs:comment>
-    </owl:NamedIndividual>
-
     
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R4">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R3">
         <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7pi2GdVhz9JDwsoBAloy5_B4_hXXwACAgMAAtkjZCELOR5Vlh4rICkE</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCHOOOOOINFSSS</rdfs:comment>
@@ -117,7 +105,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikusec-tsundere#R5">
         <rdf:type rdf:resource="http://www.semanticweb.org/mikusec-tsundere#resposta"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAACAgQAAxkBAAEFU7pi2GdVhz9JDwsoBAloy5_B4_hXXwACAgMAAtkjZCELOR5Vlh4rICkE</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ae nao ae nao</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n sei quem é então</rdfs:comment>
     </owl:NamedIndividual>
 
 </rdf:RDF>

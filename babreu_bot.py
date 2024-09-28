@@ -107,16 +107,7 @@ def echo_all(updates):
             return
 
           if ((text.lower() == "nao") and (estado[chat] == 3)):
-            response = onto.Q4.comment[1]
-            send_message(response, chat)
-
-            estado[chat] = 4
-            print(estado)
-
-            return
-
-          if ((text.lower() == "nao") and (estado[chat] == 4)):
-            response = onto.R4.comment[1]
+            response = onto.R5.comment[1]
             send_message(response, chat)
 
             estado[chat] = 0
